@@ -53,7 +53,7 @@ function ReactScrollDown(props) {
 }
 
 ReactScrollDown.propTypes = {
-  children: PropTypes.node,
+  children: PropTypes.any,
   elementDomId: PropTypes.string.isRequired,
   onBottomHeightChange: PropTypes.func
 }

@@ -58,7 +58,7 @@ function Example() {
 
 `elementDomId`: Type string, isRequired,
 
-`onBottomHeightChange`: Type (height) => number/undefined
+`onBottomHeightChange`: Type (height: number|undefined) => void
 
 ## LICENSE
 

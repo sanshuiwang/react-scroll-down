@@ -5,6 +5,7 @@
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "unpkg": "dist/index.umd.js",
+  "typings": "typings/index.d.ts",
   "author": "sanshuiwang <768188667@qq.com> (https://github.com/sanshuiwang)",
   "license": "MIT",
   "sideEffects": false,
