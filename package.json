@@ -27,6 +27,19 @@
   "files": [
     "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanshuiwang/react-scroll-down.git"
+  },
+  "keywords": [
+    "react",
+    "scroll",
+    "down load data"
+  ],
+  "bugs": {
+    "url": "https://github.com/sanshuiwang/react-scroll-down/issues"
+  },
+  "homepage": "https://github.com/sanshuiwang/react-scroll-down#readme",
   "devDependencies": {
     "babel-eslint": "^10.0.3",
     "eslint": "^6.6.0",
