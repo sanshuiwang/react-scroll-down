@@ -1,7 +1,7 @@
 {
-  "vendors.css": "/rf-filereceiver/static/css/vendors.f632b68086eadb2d5d7d.css",
-  "vendors.js": "/rf-filereceiver/static/js/vendors.d462de82.js",
-  "app.js": "/rf-filereceiver/static/js/app.f632b68086eadb2d5d7d.js",
-  "mdx-1-start.js": "/rf-filereceiver/static/js/mdx-1-start.d163b24a.js",
-  "index.html": "/rf-filereceiver/index.html"
+  "vendors.css": "/react-scroll-down/static/css/vendors.6fe8a5c9dacd4e0bc454.css",
+  "vendors.js": "/react-scroll-down/static/js/vendors.e90db78c.js",
+  "app.js": "/react-scroll-down/static/js/app.6fe8a5c9dacd4e0bc454.js",
+  "mdx-1-start.js": "/react-scroll-down/static/js/mdx-1-start.d163b24a.js",
+  "index.html": "/react-scroll-down/index.html"
 }
