@@ -1,7 +1,7 @@
 {
-  "vendors.css": "/static/css/vendors.4c3954eba35943bde91a.css",
+  "vendors.css": "/static/css/vendors.84d6713366a502af1d4c.css",
   "vendors.js": "/static/js/vendors.82b9c97c.js",
-  "app.js": "/static/js/app.4c3954eba35943bde91a.js",
-  "mdx-1-start.js": "/static/js/mdx-1-start.d163b24a.js",
+  "1-start.js": "/static/js/1-start.9f1551b8.js",
+  "app.js": "/static/js/app.84d6713366a502af1d4c.js",
   "index.html": "/index.html"
 }
