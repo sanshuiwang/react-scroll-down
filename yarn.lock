@@ -7391,7 +7391,7 @@ docz-core@1.2.0, docz-core@^1.2.0:
     ws "^7.0.0"
     yargs "^13.2.2"
 
-docz-core@^0.13.4:
+docz-core@^0.13.4, docz-core@^0.13.7:
   version "0.13.7"
   resolved "https://registry.yarnpkg.com/docz-core/-/docz-core-0.13.7.tgz#524239fc82abc6e2ac0111455fa047648ac61efd"
   integrity sha512-VPQJj8yKepZMCTX/u/dxq3iW/1i8WkKaY1Aiet4NGz/pcvRHFHu1Pcwsp/3QM1wGNqbXw+96DJBOO7OpRVECXg==
@@ -7458,6 +7458,13 @@ docz-core@^0.13.4:
     webpackbar "^3.1.4"
     ws "^6.1.2"
     yargs "^12.0.5"
+
+docz-plugin-splash@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/docz-plugin-splash/-/docz-plugin-splash-1.0.1.tgz#dd96b54b8123d2ac9415a9b365bc51a319db1456"
+  integrity sha512-22DTtw23nT0fDNAVNaK+Va88Xb1Z8zEaM/Wkt08w4Q0e7daucwMxwAbZAvS23RQ0VETvSuvaJawNO80hQi+tDQ==
+  dependencies:
+    docz-core "^0.13.7"
 
 docz-plugin-umi-css@^0.14.1:
   version "0.14.1"

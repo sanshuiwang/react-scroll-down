@@ -19,5 +19,11 @@ export default {
     commonjs({
       namedExports: { react: Object.keys(react) }
     })
-  ]
+  ],
+  doc: {
+    public: './public',
+    base: '/react-scroll-down/',
+    title: 'react-scroll-down',
+    description: 'React scroll down to load data'
+  }
 }

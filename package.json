@@ -43,6 +43,7 @@
   "homepage": "https://github.com/sanshuiwang/react-scroll-down#readme",
   "devDependencies": {
     "babel-eslint": "^10.0.3",
+    "docz-plugin-splash": "^1.0.1",
     "eslint": "^6.6.0",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-prettier": "^6.5.0",
