@@ -1,5 +1,6 @@
 import React, { useEffect, useCallback } from 'react'
 import PropTypes from 'prop-types'
+import throttle from 'lodash/throttle'
 
 const scrollEvent = event => {
   if (!event.srcElement.scrollTop) {
@@ -37,9 +38,10 @@ function ReactScrollDown(props) {
 
   useEffect(() => {
     const scrollDom = document.getElementById(elementDomId)
-    scrollDom.addEventListener('scroll', _handleScroll)
+    const handler = throttle(_handleScroll, 250)
+    scrollDom.addEventListener('scroll', handler)
 
-    return () => scrollDom.removeEventListener('scroll', _handleScroll)
+    return () => scrollDom.removeEventListener('scroll', handler)
   }, [_handleScroll, elementDomId])
 
   const newChildFunc = useCallback(() => {

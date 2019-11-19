@@ -15,11 +15,11 @@
     "prettier", // Use prettier, it can pretty file before executing eslint --fix
     "prettier/react" // Use prettier/react to pretty react syntax
   ],
-  "settings": {},
+  "plugins": ["react-hooks", "promise", "babel", "prettier"], // ['prettier', 'react-hooks']
   "env": {
+    "node": true,
     "browser": true // enable all browser global variables
   },
-  "plugins": ["react-hooks", "promise", "babel", "prettier"], // ['prettier', 'react-hooks']
   "rules": {
     "max-len": [
       "error",
@@ -33,5 +33,6 @@
     "allowTaggedTemplates": true,
     "allowShortCircuit": true,
     "allowTernary": true
-  }
+  },
+  "settings": {}
 }

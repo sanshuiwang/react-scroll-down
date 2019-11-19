@@ -23,6 +23,18 @@ yarn add react-scroll-down
 npm install --save react-scroll-down
 ```
 
+### UMD
+
+```javascript
+<script src="https://unpkg.com/react-scroll-down@0.1.1/dist/index.umd.js"></script>
+
+OR
+
+<script src="https://unpkg.com/react-scroll-down@0.1.1/dist/index.umd.min.js"></script>
+```
+
+> Tips: You can find the library on window.ReactScrollDown.
+
 ## Import
 
 ### ES2015
@@ -50,17 +62,19 @@ function Example() {
         // do something
       }}
     >
-      {/** List or Null */}
+      {/** List only children or Null */}
     </ReactScrollDown>
   )
 }
 ```
 
+> Tips: The elementDomId must have a scrolling style.(case: overflow-y: scroll)
+
 ### Params
 
-`elementDomId`: Type string, isRequired,
+`elementDomId`: Type string, isRequired. scrolling element id
 
-`onBottomHeightChange`: Type (height: number|undefined) => void
+`onBottomHeightChange`: Type (height: number|undefined) => void. scrolling listen event return height after execution
 
 ## LICENSE
 
