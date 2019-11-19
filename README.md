@@ -26,11 +26,11 @@ npm install --save react-scroll-down
 ### UMD
 
 ```javascript
-<script src="https://unpkg.com/react-scroll-down@0.1.1/dist/index.umd.js"></script>
+<script src="https://unpkg.com/react-scroll-down@0.1.2/dist/index.umd.js"></script>
 
 OR
 
-<script src="https://unpkg.com/react-scroll-down@0.1.1/dist/index.umd.min.js"></script>
+<script src="https://unpkg.com/react-scroll-down@0.1.2/dist/index.umd.min.js"></script>
 ```
 
 > Tips: You can find the library on window.ReactScrollDown.
