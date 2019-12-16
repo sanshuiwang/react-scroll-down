@@ -26,11 +26,11 @@ npm install --save react-scroll-down
 ### UMD
 
 ```javascript
-<script src="https://unpkg.com/react-scroll-down@0.1.3/dist/index.umd.js"></script>
+<script src="https://unpkg.com/react-scroll-down@0.1.4/dist/index.umd.js"></script>
 
 OR
 
-<script src="https://unpkg.com/react-scroll-down@0.1.3/dist/index.umd.min.js"></script>
+<script src="https://unpkg.com/react-scroll-down@0.1.4/dist/index.umd.min.js"></script>
 ```
 
 > Tips: You can find the library on window.ReactScrollDown.
@@ -74,7 +74,7 @@ function Example() {
 
 `elementDomId`: Type string, isRequired. scrolling element id
 
-`onBottomHeightChange`: Type (height: number|undefined) => void. scrolling listen event return height after execution
+`onBottomHeightChange`: Type (height: number|undefined) => void. scrolling listen event returns height from bottom after execution
 
 ## LICENSE
 
