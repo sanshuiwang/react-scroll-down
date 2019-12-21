@@ -1,6 +1,6 @@
 {
   "name": "react-scroll-down",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "React scroll down to load data",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -26,7 +26,8 @@
     }
   },
   "files": [
-    "dist"
+    "dist",
+    "typings"
   ],
   "repository": {
     "type": "git",
