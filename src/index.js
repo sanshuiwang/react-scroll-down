@@ -1,6 +1,6 @@
 import React, { useEffect, useCallback } from 'react'
 import PropTypes from 'prop-types'
-import throttle from 'lodash/throttle'
+import { throttle } from './helpers/util'
 
 const scrollEvent = event => {
   if (!event.srcElement.scrollTop) {
