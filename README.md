@@ -58,8 +58,10 @@ function Example() {
   return (
     <ReactScrollDown
       elementDomId="layoutContentContainer"
-      onBottomHeightChange={height => {
-        // do something
+      onBottomHeightChange={(height) => {
+        if (height !== undefined && height < 100) {
+          // do something
+        }
       }}
     >
       {/** List only children or Null */}
@@ -68,7 +70,9 @@ function Example() {
 }
 ```
 
-> Tips: The elementDomId must have a scrolling style.(case: overflow-y: scroll)
+> Tips:
+> The elementDomId must have a scrolling style.(case: overflow: auto; height: 100%).
+> The elementDomId can't include child nodes with (overflow: auto; height: 100%) style.
 
 ### Params
 

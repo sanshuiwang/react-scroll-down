@@ -2,7 +2,7 @@ import React, { useEffect, useCallback } from 'react'
 import PropTypes from 'prop-types'
 import { throttle } from './helpers/util'
 
-const scrollEvent = event => {
+const scrollEvent = (event) => {
   if (!event.srcElement.scrollTop) {
     // 处理向上使劲滚动的时候scrollTop为undefined
     return undefined
@@ -29,7 +29,7 @@ function ReactScrollDown(props) {
   const { children, elementDomId, onBottomHeightChange } = props
 
   const _handleScroll = useCallback(
-    event => {
+    (event) => {
       const height = scrollEvent(event)
       onBottomHeightChange && onBottomHeightChange(height)
     },
@@ -57,7 +57,7 @@ function ReactScrollDown(props) {
 ReactScrollDown.propTypes = {
   children: PropTypes.any,
   elementDomId: PropTypes.string.isRequired,
-  onBottomHeightChange: PropTypes.func
+  onBottomHeightChange: PropTypes.func,
 }
 
 export default ReactScrollDown
